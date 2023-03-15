@@ -9,7 +9,9 @@ A work in progress library to get started with production-grade scraping quickly
 
 ### Working Features
 
-None yet! Don't worry though you can contribute to our code. Get started today!
+Only two! Don't worry though you can contribute to our code. Get started today!
+- Multi-threading: Easily scale your script by overriding just one function (two if using selenium)
+- Saving data: Just put data in queue and it will be saved in a json file!
 
 ### Potential Features
 
@@ -17,4 +19,4 @@ Features that I wish to add, but not sure if its feasaible
 
 - Checks: Verify your scraped data! after some intervals. It becomes necessary when you are scraping for larger data. 
 - Web Portal: Easy way to monitor scripts, data, and trigger any tasks.
-- Automatically download and use webdrivers. troublesome process. just get started quickly.
+- Automatically download and use webdrivers. Checking browser version, then downloading drivers is a troublesome process. To get started quickly use this library to download any webdriver. 
